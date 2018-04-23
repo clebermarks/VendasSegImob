@@ -1,0 +1,94 @@
+<!-- Início do formulário -->
+<form class="form-horizontal">
+  <fieldset>
+    <!-- Nome do Formulário -->
+
+    <legend>Cadastro de Venda</legend>
+
+    <!-- Código da Venda -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtCodVenda">Código da Venda : </label>
+      <div class="col-md-2">
+        <input id="txtCodVenda" name="txtCodVenda" type="number" placeholder="Número da Venda" class="form-control input-md">
+      </div>
+    </div>
+
+    <!-- Código do Vendedor -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtCodVendedor">Código do Vendedor : </label>
+      <div class="col-md-2">
+        <input id="txtCodVendedor" name="txtCodVendedor" type="number" placeholder="Número do Vendedor" class="form-control input-md">
+      </div>
+    </div>
+
+    <!-- Descrição do Vendedor -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtDesVendedor">Descrição do Vendedor : </label>
+      <div class="col-md-6">
+        <input id="txtDesVendedor" name="txtDesVendedor" type="text" placeholder="Descrição do Vendedor" class="form-control input-md"
+          required="">
+      </div>
+    </div>
+
+    <!-- Código do Produto -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtCodProduto">Código do Produto : </label>
+      <div class="col-md-2">
+        <input id="txtCodProduto" name="txtCodProduto" type="number" placeholder="Número do Produto" class="form-control input-md">
+      </div>
+    </div>
+
+    <!-- Descrição do Produto -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtDesProduto">Descrição do Produto : </label>
+      <div class="col-md-6">
+        <input id="txtDesProduto" name="txtDesProduto" type="text" placeholder="Descrição do Produto" class="form-control input-md"
+          required="">
+      </div>
+    </div>
+
+    <!-- Comissão de Venda (5%) -->
+    <div class="form-group" disabled="disabled">
+      <label class="col-md-4 control-label" for="txtVlrComissao">Comissão de Venda (5%) : </label>
+      <div class="col-md-2">
+        <input id="txtVlrComissao" name="txtVlrComissao" type="number" placeholder="R$ 0.00" class="form-control input-md" required="">
+      </div>
+    </div>
+
+    <!-- Data da Venda -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtDtaVenda">Data da Venda : </label>
+      <div class="col-md-6">
+        <input id="txtDtaVenda" name="txtDtaVenda" type="date" class="form-control input-md" required="">
+      </div>
+    </div>
+
+    <!-- Select Basic -->
+    <!--<div class="form-group">
+    <label class="col-md-4 control-label" for="txtgrupo">Grupo : </label>
+    <div class="col-md-4">
+      <select id="txtgrupo" name="txtgrupo" class="form-control">
+        <option value="1">Higiêne</option>
+        <option value="2">Consumo</option>
+        <option value="3">Limpesa</option>
+        <option value="4">Material de Escritório</option>
+      </select>
+    </div>
+  </div>-->
+
+    <!-- Todos os botões -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="btnsalvar"></label>
+      <div class="col-md-6">
+        <button type="button" class="btn btn-success">
+          Incluir
+        </button>
+        <button type="button" class="btn btn-warning">
+          Limpar
+        </button>
+      </div>
+    </div>
+    
+  </fieldset>
+</form>
+<!-- Fim do formulário -->

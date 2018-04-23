@@ -1,0 +1,51 @@
+<!-- Início do formulário -->
+<form class="form-horizontal">
+  <fieldset>
+
+    <!-- Nome do Formulário -->
+    <legend>Cadastro de Produtos</legend>
+
+    <!-- Código -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtCodProduto">Código : </label>
+      <div class="col-md-2">
+        <input id="txtCodProduto" name="txtCodProduto" type="text" placeholder="Número do Produto" class="form-control input-md">
+      </div>
+    </div>
+
+    <!-- Descrição -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtDesProduto">Descrição : </label>
+      <div class="col-md-6">
+        <input id="txtDesProduto" name="txtDesProduto" type="text" placeholder="Descrição do Produto" class="form-control input-md"
+          required="">
+      </div>
+    </div>
+
+    <!-- Preço -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtPreco">Preço : </label>
+      <div class="col-md-2">
+        <input id="txtPreco" name="txtPreco" type="number" value="0.00" min="0" step="0.01" data-number-to-fixed="2" data-number-stepfactor="100"
+          placeholder="R$ 0.00" class="form-control input-md" required="">
+      </div>
+    </div>
+
+    <!-- Grid para listar e filtrar -->
+    <div class="list-group">
+      <app-produto-lista></app-produto-lista>
+    </div>
+
+    <!-- Todos os botões -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="btnsalvar"></label>
+      <div class="col-md-8">
+        <button id="btnlistar" name="btnlistar" class="btn btn-info">Listar</button>
+        <button id="btnfiltrar" name="btnfiltrar" class="btn btn-primary">Filtar</button>
+        <button id="btnincluir" name="btnincluir" class="btn btn-success">Incluir</button>
+        <button id="btneditar" name="btneditar" class="btn btn-warning">Editar</button>
+      </div>
+    </div>
+
+  </fieldset>
+</form>
