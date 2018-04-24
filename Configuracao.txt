@@ -1,0 +1,8 @@
+Documentação de uso e execução
+1 - Clonar projeto pelo repositório web: git clone https://github.com/clebermarks/VendasSegImob.git
+2 - Instalar as dependências: npm install
+3 - Iniciar o servidor: ng serve
+4 - Abrir solução "Vendas.WebApi.sln" na pasta ".\Comercial\Vendas.WebApi\".
+5 - Atualizar "Data-Source" dentro da tag <connectionStrings> no arquivo "Web.config", conforme configuração local do SQL SERVER.
+6 - Executar solução através da tecla F5.
+7 - Executar arquivo script.sql via SQL SERVER.
